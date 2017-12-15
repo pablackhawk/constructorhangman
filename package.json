@@ -1,0 +1,28 @@
+{
+  "name": "constructorhangman",
+  "version": "1.0.0",
+  "description": "A command line hangman game!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablackhawk/constructorhangman.git"
+  },
+  "keywords": [
+    "hangman",
+    "node",
+    "inquirer"
+  ],
+  "author": "Laurentius Tirtarahardja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablackhawk/constructorhangman/issues"
+  },
+  "homepage": "https://github.com/pablackhawk/constructorhangman#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "is-letter": "^1.1.1"
+  }
+}
