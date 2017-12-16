@@ -61,8 +61,8 @@ let hangman = {
           return false
         }
       }
-    }]).then(function (letter) {
-      let letterReturned = (letter.chosenletter).toUpperCase()
+    }]).then(function (ltr) {
+      let letterReturned = (ltr.chosenLetter).toUpperCase()
       let alreadyGuessed = false
       for (var i = 0; i < selection.guessedLetters.length; i++) {
         if (letterReturned === selection.guessedLetters[i]) {

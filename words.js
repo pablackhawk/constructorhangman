@@ -24,7 +24,7 @@ function Word (wrd) {
   this.checkLetter = function (guessedLetter) {
     let whatToReturn = 0
     this.letters.forEach(function (lttr) {
-      if (lttr.letter === letterGuess) {
+      if (lttr.letter === guessedLetter) {
         lttr.appear = true
         whatToReturn++
       }
